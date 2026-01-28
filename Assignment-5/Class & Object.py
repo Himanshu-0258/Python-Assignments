@@ -1,6 +1,5 @@
 
 # Create Bank Account History System.
-
 class BankAccount:
     def __init__(self, account_number, balance=0.0):
         self.account_number = account_number
@@ -22,9 +21,15 @@ class BankAccount:
         print(f"Account Balance: ₹{self.balance}")
 
 # Enter Account Details.
-
+print("   ...........\***/...........")
+print("                _         ")
 print("Account Summary: ")
 account = BankAccount(8025, 273)
+print("                _         ")
 account.deposit(200)
+print("                _         ")
 account.withdraw(150)
+print("                _         ")
 account.check_balance()
+print("                _          ")
+print("    .........../*\...............")
